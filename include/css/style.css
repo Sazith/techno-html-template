@@ -7,10 +7,86 @@ Common Css
 }
 
 body {
-  margin: 0;
-  overflow: hidden;
   background: #000 url(../img/demo-bg.jpg) 0 0 repeat;
-  position: relative;
+}
+
+.common-top {
+  margin-top: 7.5rem;
+  background: url("../images/bannar.jpg") center/cover no-repeat;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.common-info h3 {
+  font-size: 32px;
+  letter-spacing: 3px;
+  word-spacing: 1px;
+  font-style: normal;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.common-info p {
+  color: rgb(211, 211, 211);
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.common-box {
+  border: 1px solid rgb(65, 61, 61);
+  background-color: rgb(66, 65, 64);
+  padding: 15px 10px;
+  box-shadow: 1px 2px 13px #c7c7c7;
+  color: azure;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.common-box-icon {
+  text-align: center;
+}
+.common-box-icon i {
+  font-size: 40px;
+}
+.common-box-icon-one {
+  color: #ff9200;
+}
+.common-box-icon-two {
+  color: #1dd199;
+}
+.common-box-icon-three {
+  color: #eecbff;
+}
+.common-box-info {
+  width: 80%;
+}
+.common-box-info h1 {
+  padding: 10px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #edd514;
+}
+.common-box-info h6 {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  color: #e2e910;
+}
+.common-box-info p {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 400;
+  color: #ff9200;
 }
 
 /***************
@@ -21,7 +97,6 @@ Common Css
 Header Start
 *****************/
 .navbar {
-  padding: 25px 0px;
   background: rgba(12, 11, 9, 0.6);
 }
 .navbar-toggler {
@@ -54,3 +129,39 @@ Header Start
 /****************
 Header End
 ******************/
+
+/****************
+Bannar Start
+*****************/
+
+/****************
+Bananr End
+*****************/
+
+/****************
+Features Start
+*****************/
+
+.feature-box-info ul {
+  padding: 0;
+}
+
+.feature-box-info ul li {
+  list-style: none;
+  list-style: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  padding-bottom: 9px;
+  color: rgb(181 195 29);
+}
+.feature-box-info ul li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f222";
+  color: rgb(12, 248, 83);
+  padding-right: 10px;
+}
+/****************
+Features End
+*****************/
