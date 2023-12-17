@@ -1,0 +1,56 @@
+/***************
+Common Css
+***************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000 url(../img/demo-bg.jpg) 0 0 repeat;
+  position: relative;
+}
+
+/***************
+Common Css
+***************/
+
+/****************
+Header Start
+*****************/
+.navbar {
+  padding: 25px 0px;
+  background: rgba(12, 11, 9, 0.6);
+}
+.navbar-toggler {
+  color: rgb(157 123 123 / 40%);
+  background-color: #bdb9b9d9;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-btn-close {
+  background-color: wheat;
+}
+.nav-item {
+  padding-left: 10px;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+.nav-item:hover {
+  background-color: azure;
+  border-radius: 10px;
+  box-shadow: 2px 3px 13px #a4a4a4;
+}
+
+.nav-item {
+  text-align: center;
+}
+.nav-item:hover a {
+  color: #000 !important;
+}
+/****************
+Header End
+******************/
