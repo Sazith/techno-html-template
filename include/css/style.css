@@ -5,14 +5,11 @@ Common Css
   margin: 0;
   padding: 0;
 }
-
 body {
-  background: #000 url(../img/demo-bg.jpg) 0 0 repeat;
+  font-family: "Poppins", sans-serif;
 }
 
 .common-top {
-  margin-top: 4.5rem;
-  background: url("../images/bannar.jpg") center/cover no-repeat;
   height: auto;
   display: flex;
   align-items: center;
@@ -28,7 +25,6 @@ body {
   padding-bottom: 10px;
 }
 .common-info p {
-  color: rgb(211, 211, 211);
   text-align: center;
   font-size: 16px;
   letter-spacing: 1px;
@@ -38,23 +34,21 @@ body {
   padding-bottom: 30px;
 }
 .common-box {
-  border: 1px solid rgb(65, 61, 61);
-  background-color: rgb(66, 65, 64);
   padding: 15px 10px;
-  box-shadow: 1px 2px 13px #c7c7c7;
   color: azure;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  border: 2px solid white;
 }
 .common-box:hover {
   cursor: pointer;
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
-  border: 1px solid #5c5959;
+  border: 1px solid #ffc451;
 }
 .common-box-icon {
   text-align: center;
@@ -78,15 +72,13 @@ body {
   padding: 10px 0px;
   text-align: center;
   letter-spacing: 1px;
-  color: #edd514;
 }
 .common-box-info h6 {
   font-size: 22px;
   text-align: center;
   padding-bottom: 15px;
   letter-spacing: 1px;
-  font-weight: 200;
-  color: #e2e910;
+  font-weight: 400;
 }
 .common-box-info p {
   font-size: 18px;
@@ -94,7 +86,6 @@ body {
   letter-spacing: 1px;
   font-style: italic;
   font-weight: 400;
-  color: #ff9200;
 }
 
 /***************
@@ -172,17 +163,25 @@ Header End
 ******************/
 
 /****************
-Bannar Start
+About Start
 *****************/
-
+#about {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../images/testomonial.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
+.about-info p {
+  color: #ffffff;
+}
 /****************
-Bananr End
+About End
 *****************/
 
 /****************
 Features Start
 *****************/
-
 .feature-box-info ul {
   padding: 0;
 }
@@ -202,6 +201,22 @@ Features Start
   content: "\f222";
   color: rgb(12, 248, 83);
   padding-right: 10px;
+}
+.feature-box {
+  border: 2px solid rgb(219 219 219);
+}
+
+.feature-box-info h1 {
+  color: black;
+}
+.feature-box-info h6 {
+  color: black;
+}
+.feature-box-info p {
+  color: black;
+}
+.feature-box-info ul li {
+  color: black;
 }
 /****************
 Features End
@@ -344,9 +359,8 @@ Count Section End
 Testimonial Section start
 *****************/
 .testominal {
-  background-image: url("../images/testominalBg.jpg");
-  background-color: #1dd199;
-  padding: 8rem 0rem;
+  background-image: url("../images/testomonial.jpg");
+  padding: 10rem 0rem;
   margin-bottom: 2rem;
 }
 .testimonial-carousel-Indicators button {
@@ -500,6 +514,7 @@ Footer Section  start
 #footer {
   padding: 6rem 0rem;
   color: #fff;
+  background: black;
 }
 .footer-info h3 {
   font-size: 28px;
